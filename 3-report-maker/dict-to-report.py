@@ -10,7 +10,6 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Pt, RGBColor, Cm
 
-print()
 def process_section(paragraphs, section, attr_title, attr_text, attr_key):
     section_data = section.get('label')
     if section_data:
